@@ -31,17 +31,32 @@ Hello and welcome to my apps planner file
 
 **Example:**
 ```json
-"People": {
-    "username": "Denya",
-    "password": "ILikePlenz",
-    "stats": {
-        "ExamsCompleted": "1200",
-        "ExamsCorrect": "1100",
-        "ExamsFailed": "100",
-        "CorrectStreak": "80",
+{
+  "People": {
+    "Denya": {
+      "password": "ILikePlenz",
+      "stats": {
+        "ExamsCompleted": 1200,
+        "ExamsCorrect": 1100,
+        "ExamsFailed": 100,
+        "CorrectStreak": 80,
         "DateJoined": "09/11/25"
+      }
+    },
+
+    "Alex": {
+        "password": "NoobPlenz",
+        "stats": {
+            "ExamesCompleted": 100000,
+            "ExamsCorect": 1,
+            "ExamsFailed": 99999,
+            "CorrectStreak": 1,
+            "DateJoined": "01/01/0001"
+        }
     }
+  }
 }
+
 ```
 
 --------------------------------end of section 1-------------------------------------
