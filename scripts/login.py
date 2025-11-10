@@ -1,7 +1,7 @@
 database = {
   "People": {
     "Denya": {
-      "password": "ILikePlenz",
+      "password": "123456",
       "stats": {
         "ExamsCompleted": 1200,
         "ExamsCorrect": 1100,
