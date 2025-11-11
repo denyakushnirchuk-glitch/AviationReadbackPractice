@@ -1,0 +1,24 @@
+{
+  "People": {
+    "admin": {
+      "password": "1234",
+      "stats": {
+        "ExamsCompleted": 2000,
+        "ExamsCorrect": 1000,
+        "ExamsFailed": 1000,
+        "CorrectStreak": 1000,
+        "DateJoined": "09/11/25"
+      }
+    },
+    "denyakushnirchuk@gmail.com": {
+      "password": "1234kmcj",
+      "stats": {
+        "ExamsCompleted": 0,
+        "ExamsCorrect": 0,
+        "ExamsFailed": 0,
+        "CorrectStreak": 0,
+        "DateJoined": "11/11/25"
+      }
+    }
+  }
+}

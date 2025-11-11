@@ -1,7 +1,7 @@
-database = {
+{
   "People": {
     "Denya": {
-      "password": "123456",
+      "password": "ILikePlenz",
       "stats": {
         "ExamsCompleted": 1200,
         "ExamsCorrect": 1100,
@@ -23,25 +23,3 @@ database = {
     }
   }
 }
-
-print("Users in database:")
-
-for i in database["People"]:
-    x = 1
-    print(f"{x}. {i}")
-    x += 1
-
-
-print("Please select a user to login as:")
-
-selUser = input("Username: ")
-
-if selUser in database["People"]:
-    password = input("Password: ")
-    if password == database["People"][selUser]["password"]:
-        print(f"Login successful! Welcome back, {selUser}.")
-    else:
-        print("Incorrect password. Access denied.")
-
-
-

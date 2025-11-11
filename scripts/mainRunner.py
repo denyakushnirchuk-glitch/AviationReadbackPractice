@@ -1,0 +1,2 @@
+loggedin = False
+selUser = ""
