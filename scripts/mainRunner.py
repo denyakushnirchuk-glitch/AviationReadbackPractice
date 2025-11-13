@@ -1,2 +1,0 @@
-loggedin = False
-selUser = ""
