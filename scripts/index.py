@@ -5,10 +5,14 @@ import json
 from questions import questions
 
 
-#setting variables for the login to function nicely
+#setting variables for the functions to function nicely
 loggedin = False
 selUser = ""
 loggedinas = ""
+userChoice = ""
+quitPractice = False
+amountQuestions = 1
+currentquestion = 1
 
 with open("database/userdatabase.json", "r") as file:
     database = json.load(file)
@@ -63,17 +67,52 @@ def appendDatabase():
         registerUser()
         with open("database/userdatabase.json", "w") as file:
             json.dump(database, file, indent=2)
-                    
+
+
+#INSIDE OF THE HUB--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+def menu():
+    time.sleep(2)
+    skipLinez(10)
+    print("Welcome to the hub!")
+    print("1. Start Practice")
+    print("2. Source the Code")
+    print("3. Exit")
+
+def questionGiver():
+    global currentquestion
+    global amountQuestions
+
+    currentquestion = amountQuestions - amountQuestions + 1
+
+    print(f"Question {currentquestion} of {amountQuestions}")
+
+def menuLogic():
+    global userChoice
+    global quitPractice
+    global amountQuestions
+    skipLinez(1)
+    userChoice = input(":")
+    #setting the questions enviromentS
+    if input == "1":
+        skipLinez(5)
+        amountQuestions = input("How many questions would you like (1 - 20): ")
+        print("Starting practice. Get ready")
+        for i in range(0, 3):
+            print(".")
+            time.sleep(1)
+        skipLinez(5)
+
+
+
+
+                
 #The loop that triggers if user not logged in.
 while not loggedin:
     appendDatabase()
 
-
-#The question function
-
-def questionFetch():
-    
-
+menu()
+menuLogic()
 
 time.sleep(2)
 #print(loggedinas) #debug function, keep commented unless you know what you are doing
