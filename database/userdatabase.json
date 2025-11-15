@@ -3,10 +3,10 @@
     "admin": {
       "password": "1234",
       "stats": {
-        "ExamsCompleted": 2000,
-        "ExamsCorrect": 1000,
+        "ExamsCompleted": 2001,
+        "ExamsCorrect": 1001,
         "ExamsFailed": 1000,
-        "CorrectStreak": 1000,
+        "CorrectStreak": 1001,
         "DateJoined": "09/11/25"
       }
     },
@@ -18,6 +18,16 @@
         "ExamsFailed": 0,
         "CorrectStreak": 0,
         "DateJoined": "11/11/25"
+      }
+    },
+    "denya": {
+      "password": "1234kmcj",
+      "stats": {
+        "ExamsCompleted": 1,
+        "ExamsCorrect": 1,
+        "ExamsFailed": 0,
+        "CorrectStreak": 1,
+        "DateJoined": "11/15/25"
       }
     }
   }
