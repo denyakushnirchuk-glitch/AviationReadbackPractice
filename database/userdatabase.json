@@ -9,26 +9,6 @@
         "CorrectStreak": 1001,
         "DateJoined": "09/11/25"
       }
-    },
-    "denyakushnirchuk@gmail.com": {
-      "password": "1234kmcj",
-      "stats": {
-        "ExamsCompleted": 0,
-        "ExamsCorrect": 0,
-        "ExamsFailed": 0,
-        "CorrectStreak": 0,
-        "DateJoined": "11/11/25"
-      }
-    },
-    "denya": {
-      "password": "1234kmcj",
-      "stats": {
-        "ExamsCompleted": 2,
-        "ExamsCorrect": 2,
-        "ExamsFailed": 0,
-        "CorrectStreak": 2,
-        "DateJoined": "11/15/25"
-      }
     }
   }
 }
