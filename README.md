@@ -1,20 +1,27 @@
-# AviationReadbackPractice
-Just a school project where I had to make an aviation readback practice app. Nothing too big out of it though
+# ✈️ Aviation Readback Practice
 
+A CLI-based aviation readback practice tool designed for students and enthusiasts to improve their ATC readback skills.
 
-**INSTALLATION INSTRUCTIONS**
+---
 
-to get the script running on your computer, you need to use git. Using git, clone my repo to your device. Enjoy!
+## 💻 Installation
 
+1. Ensure you have **Python 3.x** installed on your system.
+2. Clone the repository to your local machine using ***GIT***.
+3. Navigate to the project folder.
+4. Run the script with Python.
 
+ ```bash
+   git clone <https://github.com/denyakushnirchuk-glitch/AviationReadbackPractice>
 
-**Use guidelines**
+```
 
-For 100% working rate, please use the given username below:
+## ⚙️ Usage
 
-
-Username: admin
-password: 1234
-
-
-*Create your own user at your own risk haha, the admin is 1000 going to work.*
+1. On running the program, you will be prompted to **log in or register**.
+2. After logging in, access the **hub** to:
+   - Start practice sessions.
+   - View your stats.
+   - Access source code.
+3. Answer multiple-choice questions and track your score.
+4. At the end of a session, results are recorded in your profile.
