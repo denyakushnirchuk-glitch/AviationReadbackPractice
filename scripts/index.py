@@ -141,13 +141,15 @@ def menuLogic():
             questionNum = random.randint(1, 20)
             questionGiver()
         print("Thats it!")
+        skipLinez(1)
         print(f"Correct: {questionsCorrect}")
         print(f"Wrong: {questionsWrong}")
 
+        skipLinez(1)
         percentageRight = (questionsCorrect / amountQuestions) * 100
         print(f"Your final score is: {percentageRight:.1f}%")
 
-
+        skipLinez(1)
         database["People"][loggedinas]["stats"]["ExamsCompleted"] += 1
         if percentageRight >= 74:
             print("You passed")
@@ -162,6 +164,8 @@ def menuLogic():
         
         with open("database/userdatabase.json", "w") as f:
             json.dump(database, f, indent=2)
+
+        time.sleep(2)
         pass
     elif userChoice == 2:
         print("https://github.com/denyakushnirchuk-glitch/AviationReadbackPractice")
@@ -198,16 +202,3 @@ while not quitPractice:
     menuLogic()
 
 #print(loggedinas) #debug function, keep commented unless you know what you are doing
-
-
-
-
-
-
-
-
-
-
-
-
-

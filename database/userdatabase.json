@@ -23,10 +23,10 @@
     "denya": {
       "password": "1234kmcj",
       "stats": {
-        "ExamsCompleted": 1,
-        "ExamsCorrect": 1,
+        "ExamsCompleted": 2,
+        "ExamsCorrect": 2,
         "ExamsFailed": 0,
-        "CorrectStreak": 1,
+        "CorrectStreak": 2,
         "DateJoined": "11/15/25"
       }
     }
