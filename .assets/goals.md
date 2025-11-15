@@ -8,13 +8,12 @@ Hello and welcome to my apps planner file
 
 - [ 🟩 ] --> **User log in section**  
 - [ 🟩 ] --> **Question Database**  
-- [ 🟥 ] --> **Database Fetch function**  
-- [ 🟥 ] --> **Question asking system**  
-- [ 🟥 ] --> **Random Selection Code**  
-- [ 🟥 ] --> **QOL Improvements**  
-- [ 🟥 ] --> **TEMP files**  
+- [ 🟩 ] --> **Database Fetch function**  
+- [ 🟩 ] --> **Question asking system**  
+- [ 🟩 ] --> **Random Selection Code**  
+- [ 🟩 ] --> **QOL Improvements**  
+- [ 🟩 ] --> **TEMP files**  
 - [ 🟥 ] --> **Rich UI**  
-- [ 🟥 ] --> **Install script**
 
 ---
 
@@ -115,3 +114,17 @@ Answer:
 ```
 And finished on 15/11/25
 --------------------------------end of section 2-------------------------------------
+
+
+
+
+
+
+/CHANGES MADE TO THE FINAL DESIGN
+
+
+- I did not go with an idea of making RICH GUI, since it would just clutter the exèrience, and would take tad too much time to do
+
+- I went against the idea of un-repeatable questions since that is sometihng that i cannot do yet. 
+
+- some inputs still can break the script because they have no fallback thing. This is due to me having not enough time to complete the script

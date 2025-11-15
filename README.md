@@ -1,27 +1,41 @@
-# ✈️ Aviation Readback Practice
+# ✈️ Aviation Readback Practice Pro
 
-A CLI-based aviation readback practice tool designed for students and enthusiasts to improve their ATC readback skills.
+CLI practice tool to allow vatsim pilots to practice their readback offline
 
 ---
 
-## 💻 Installation
+## 💻 Install guide
 
-1. Ensure you have **Python 3.x** installed on your system.
-2. Clone the repository to your local machine using ***GIT***.
-3. Navigate to the project folder.
-4. Run the script with Python.
+1. Ensure you have a plain **Python 3.x.x** and any version of **GIT** installed on your machine.
+
+2.Clone into the repo using the command below
 
  ```bash
    git clone <https://github.com/denyakushnirchuk-glitch/AviationReadbackPractice>
 
 ```
+3. Go into directory you installed the script in.
 
-## ⚙️ Usage
+```bash
 
-1. On running the program, you will be prompted to **log in or register**.
-2. After logging in, access the **hub** to:
-   - Start practice sessions.
-   - View your stats.
-   - Access source code.
-3. Answer multiple-choice questions and track your score.
-4. At the end of a session, results are recorded in your profile.
+    cd AviationReadbackPractice
+
+```
+4. In **scripts/** you will find script called **index.py**. It is the mainloop script. 
+
+## ⚙️ Use Tutorial
+
+1. On running **index.py**, you are going to be asked to register. Do so to gain acces to the hub. (local only, works offline.)
+
+2. After logging in, you will have acces to the hub. In the **hub**:
+    - Start your practice
+    - view your stats
+    - get a backlink to this repo
+    - Exit
+3. At the end, your answers are automatically saved into a **LOCAL** database, so you don't lose your progress
+
+---
+
+
+
+# ⭐⭐ ENJOY ⭐⭐
